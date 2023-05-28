@@ -221,3 +221,11 @@ The Pizza Hawaii App is open source software licensed under the MIT license. Non
 
 [Jürgen Rudigier](https://github.com/rudigier), 
 [Felix Adam](https://github.com/flxtagi) 
+
+## Docker
+
+Build image
+
+```
+docker build . --file Dockerfile --tag app-pizzahawai --build-arg NPM_TOKEN=
+```
